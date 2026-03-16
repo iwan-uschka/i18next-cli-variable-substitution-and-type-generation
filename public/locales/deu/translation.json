@@ -1,0 +1,4 @@
+{
+  "message[messageKey1]": "Nachricht 1 mit {{variable}}",
+  "message[messageKey2]": "Nachricht 2 mit {{ variable }}"
+}
