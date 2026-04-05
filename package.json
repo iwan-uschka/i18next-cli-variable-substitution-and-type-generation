@@ -27,7 +27,7 @@
     "eslint": "9.39.4",
     "eslint-plugin-react-hooks": "7.0.1",
     "eslint-plugin-react-refresh": "0.5.2",
-    "i18next-cli": "1.50.1",
+    "i18next-cli": "1.50.2",
     "globals": "17.4.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "8.56.1",

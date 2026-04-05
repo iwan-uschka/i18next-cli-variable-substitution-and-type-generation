@@ -52,8 +52,8 @@ importers:
         specifier: 17.4.0
         version: 17.4.0
       i18next-cli:
-        specifier: 1.50.1
-        version: 1.50.1(@types/node@24.12.0)(i18next@25.8.18(typescript@5.9.3))(react-dom@19.2.4(react@19.2.4))(typescript@5.9.3)
+        specifier: 1.50.2
+        version: 1.50.2(@types/node@24.12.0)(i18next@25.8.18(typescript@5.9.3))(react-dom@19.2.4(react@19.2.4))(typescript@5.9.3)
       typescript:
         specifier: ~5.9.3
         version: 5.9.3
@@ -948,16 +948,16 @@ packages:
     resolution: {integrity: sha512-eKCa6bwnJhvxj14kZk5NCPc6Hb6BdsU9DZcOnmQKSnO1VKrfV0zCvtttPZUsBvjmNDn8rpcJfpwSYnHBjc95MQ==}
     engines: {node: '>=18.18.0'}
 
-  i18next-cli@1.50.1:
-    resolution: {integrity: sha512-Gz+/ZHGqTlKBWJ3zyBwtd+yRZLqJR06WuGSHJUpAsRIrsTa1/AJZD77wZTRLZh2B5w6gnMVsXN8jrNjVvNLvkw==}
+  i18next-cli@1.50.2:
+    resolution: {integrity: sha512-KXSCl/mKlSqd4vkEbtB47dDE29eghkEifLspQ8Aq3OiMsJcdqcTnOSh4nlggFEWU9XML9VzdFBsV0j2WGjGauQ==}
     engines: {node: '>=22'}
     hasBin: true
 
   i18next-http-backend@3.0.2:
     resolution: {integrity: sha512-PdlvPnvIp4E1sYi46Ik4tBYh/v/NbYfFFgTjkwFl0is8A18s7/bx9aXqsrOax9WUbeNS6mD2oix7Z0yGGf6m5g==}
 
-  i18next-resources-for-ts@2.0.1:
-    resolution: {integrity: sha512-e3nroKWOHI/B4Nl2+N62xeCS8Dd61iSIUej/4ObeOs64JiLosAsHaa3HILg23rgIf+dS1I0IMDEkWPH2s9Oo3Q==}
+  i18next-resources-for-ts@2.0.2:
+    resolution: {integrity: sha512-BGPebhvjrvU+pgKNsIzb3cxl6/8LJw1pxNkIlUpnxCC4SXjbIwXeHuNxFnOkTAryRfMqYf81lPjYD2gngDyOfQ==}
     hasBin: true
 
   i18next@25.8.18:
@@ -2367,7 +2367,7 @@ snapshots:
 
   human-signals@8.0.1: {}
 
-  i18next-cli@1.50.1(@types/node@24.12.0)(i18next@25.8.18(typescript@5.9.3))(react-dom@19.2.4(react@19.2.4))(typescript@5.9.3):
+  i18next-cli@1.50.2(@types/node@24.12.0)(i18next@25.8.18(typescript@5.9.3))(react-dom@19.2.4(react@19.2.4))(typescript@5.9.3):
     dependencies:
       '@croct/json5-parser': 0.2.2
       '@swc/core': 1.15.18
@@ -2375,7 +2375,7 @@ snapshots:
       commander: 14.0.3
       execa: 9.6.1
       glob: 13.0.6
-      i18next-resources-for-ts: 2.0.1
+      i18next-resources-for-ts: 2.0.2
       inquirer: 13.3.2(@types/node@24.12.0)
       jiti: 2.6.1
       jsonc-parser: 3.3.1
@@ -2399,7 +2399,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  i18next-resources-for-ts@2.0.1:
+  i18next-resources-for-ts@2.0.2:
     dependencies:
       '@babel/runtime': 7.28.6
       '@swc/core': 1.15.18
